@@ -1,0 +1,55 @@
+.Appwrapper {
+    max-height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+.Weather_card {
+    background-color: rgba(6, 132, 136, 0.795)!important;
+    margin: 2rem auto;
+    margin-top: 1rem;
+    text-align: center;
+    padding:0.5rem 0.7rem !important;
+    color: black;
+    width: 86%;
+}
+.weather_title{
+    margin: 0 auto;
+    padding: 1.6rem 0 1rem 0;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+.bg1{
+    background-image: linear-gradient(
+					to right bottom,
+					rgba(3, 1, 22, 0.529),
+					rgba(8, 78, 75, 0.6)
+					),url(../../assets/bg.jpg);
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+.warn_text {
+    color: rgba(206, 27, 27, 0.829) !important;
+}
+.saved_weather{
+    margin: auto;
+    padding-top: 10px;
+    color: rgba(206, 27, 27, 0.829) !important;
+    width: 86%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .weather_card_wrapper {
+        width: 50% !important;
+        margin: auto;
+        margin-top: 0rem;
+        box-sizing: border-box;
+    }
+}
